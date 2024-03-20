@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(5, 95, 95);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #ffffff;
+    color: rgb(5, 95, 95);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.carousel img {
+    width: 100%;
+    height: 700px;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+.text-colored {
+    color: rgb(5, 95, 95);
+}
+
+#sobre, #produtos {
+    background-color: rgb(210, 243, 243);
+}
+
+#publico-alvo img {
+    height: 200px;
+}
+
+.nav-produtos .nav-link.active, #fale-conosco button{
+    background-color: rgb(5, 95, 95);
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: rgb(5, 95, 95);
+}
+
+.tab-pane img {
+    max-height: 178px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

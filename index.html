@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de suplementos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3">Loja de suplementos</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#publico-alvo">
+                            <i class="bi bi-people me-1"></i>
+                            Público
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#produtos">
+                            <i class="bi bi-card-text me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slide1.jpeg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slide2.png" >
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slide3.jpg">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/loja_interior.jpg" class="d-block w-100 h-100 rounded" alt="Interior da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a <span class="text-colored">loja</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, cum porro qui quibusdam officiis ad consectetur odit iusto nisi explicabo ipsam illo rem, recusandae veritatis dicta saepe culpa facilis maiores.</p>
+                            <h3 class="section-title">Sobre o <span class="text-colored">espaço</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt iure, exercitationem neque unde saepe voluptate consequatur facilis voluptatem consequuntur alias similique, harum velit cupiditate necessitatibus qui obcaecati repellendus quia beatae.</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="publico-alvo" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas as <span class="text-colored">idades</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/criancas.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-robot"></i>
+                            Crianças e adolescentes
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, impedit praesentium! Nulla obcaecati provident voluptates, facere adipisci a accusantium error, aut repudiandae laborum culpa. Molestiae accusamus minima distinctio excepturi quae.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/adultos.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-standing"></i>
+                            Adultos
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, impedit praesentium! Nulla obcaecati provident voluptates, facere adipisci a accusantium error, aut repudiandae laborum culpa. Molestiae accusamus minima distinctio excepturi quae.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/idosos.jpg" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-person-wheelchair"></i>
+                            Idosos
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, impedit praesentium! Nulla obcaecati provident voluptates, facere adipisci a accusantium error, aut repudiandae laborum culpa. Molestiae accusamus minima distinctio excepturi quae.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="section-title mb-5">Nossos <span class="text-colored">produtos</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <nav class="nav nav-pills flex-collumn nav-produtos">
+                            <button data-bs-toggle="tab" data-bs-target="#proteicos" class="w-100 fw-bold text-start nav-link text-colored active">Suplementos proteicos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#termogenicos" class="w-100 fw-bold text-start nav-link text-colored">Suplementos termogênicos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#vitaminicos" class="w-100 fw-bold text-start nav-link text-colored">Suplementos vitamínicos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#antioxidantes" class="w-100 mb-2 fw-bold text-start nav-link text-colored">Suplementos antioxidantes</button>
+                        </nav>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="proteicos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/whey_max.jpg" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Whey MAX</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/whey_integralmedica.jpg" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Whey Integral Médica</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/whey_probiotica.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Whey Probiótica</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="termogenicos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/termogenico_masterway.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Termogênico Masterway</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/termogenico_olympia.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Termogênico Olympia</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/termogenico_profit.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Termogênico Profit</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="vitaminicos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/vitaminico_centrolev.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Vitamínico Centrolev</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/vitaminico_cronovit.jpg" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Vitamínico Cronovit</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/vitaminico_schraiber.jpg" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Vitamínico Schraiber</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="antioxidantes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/antioxidante_fitoessencia.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Antioxidante Fitoessência</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/antioxidante_growth.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Antioxidante Growth</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/antioxidante_nutrivale.webp" class="rounded d-block w-100">
+                                        <h5 class="text-colored mt-2 fw-bold">Antioxidante Nutrivale</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, odio accusantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">conosco</span>
+                        <i class="bi bi-telephone-fill text-colored"></i>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label class="fw-bold text-colored form-label" for="nome">Seu nome</label>
+                                <input name="nome" class="form-control" type="text" id="nome" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="fw-bold text-colored form-label" for="email">Seu e-mail</label>
+                                <input name="email" class="form-control" type="email" id="email" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="fw-bold text-colored form-label" for="telefone">Seu telefone (opicional)</label>
+                                <input name="telefone" class="form-control" type="tel" id="telefone" />
+                            </div>
+                            <div class="mb-3">
+                                <label class="fw-bold text-colored form-label" for="msg">Sua mensagem</label>
+                                <textarea name="msg" class="form-control" id="msg"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-twitter-x"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="text-colored bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua André Alves, nº 854 - Bairro: São Vicente - Laranjeiras do Sul-PR
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+
+            $('#telefone').mask('(00) 0 0000-0000', {
+                placeholder: '(__) _ ____-____'
+        })
+
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    msg: {
+                        required: true
+                    },
+                },
+                messages: {
+                    nome: 'Insira seu nome',
+                    email: 'Insira seu email',
+                    msg: 'Insira sua mensagem'
+                }
+            })
+        })
+    </script>
+</body>
+</html>
